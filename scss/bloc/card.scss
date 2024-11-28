@@ -1,0 +1,23 @@
+.bloc-card {
+    width: 320px;
+    border: 1px solid red;
+    margin-top: 50px;
+    padding: 15px;
+    img, p, .list-btn {
+        width: 280px;
+        display: block;
+        margin: 0 auto;
+    }
+    p {
+        margin-top: 25px;
+        text-align: justify;
+        
+    }
+    .list-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+    }
+    
+}

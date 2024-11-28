@@ -1,0 +1,67 @@
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: red;
+}
+
+body {
+  background-color: rgb(231, 231, 238);
+}
+
+main {
+  width: 1200px;
+  margin: 0px auto;
+  background-color: lightblue;
+}
+
+.element-button {
+  background-color: rgb(9, 71, 125);
+  color: white;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(9, 71, 125);
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-size: 14px;
+}
+.element-button:hover {
+  background-color: transparent;
+  color: rgb(9, 71, 125);
+  cursor: pointer;
+}
+.element-button--secondary {
+  background-color: transparent;
+  color: rgb(9, 71, 125);
+}
+.element-button--secondary:hover {
+  background-color: rgb(9, 71, 125);
+  color: white;
+  cursor: pointer;
+}
+
+.bloc-card {
+  width: 320px;
+  border: 1px solid red;
+  margin-top: 50px;
+  padding: 15px;
+}
+.bloc-card img, .bloc-card p, .bloc-card .list-btn {
+  width: 280px;
+  display: block;
+  margin: 0 auto;
+}
+.bloc-card p {
+  margin-top: 25px;
+  text-align: justify;
+}
+.bloc-card .list-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
